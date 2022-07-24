@@ -1,4 +1,9 @@
-# datastore-core-110-react-vite-example
+# Vite React Typescript for use with new IPFS ESM modules
+- No transpiling into ipfsjs no require statement
+- top level await for  `const ipfs = await create()`
+- Big Integer literals in the target environment
+## datastore-core-110-react-vite-example
+
 Minimal reproduction of ipfs/js-datastore-core [#110](https://github.com/ipfs/js-datastore-core/issues/110) using vite react typescript
 configured with es2022 for top level await for `const ipfs = await create()` from [here](https://github.com/ipfs/js-ipfs/blob/master/packages/ipfs-http-client/README.md#example-1)
 
